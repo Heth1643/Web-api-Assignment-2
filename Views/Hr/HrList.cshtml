@@ -1,0 +1,35 @@
+@model IEnumerable<Assignment2model.Hr>
+@{
+    ViewData["Title"] = "HrList";
+}
+ <table id="tbl1" Class="table table-dark text-center">
+    <thead>
+    <tr>
+          <th>HR ID</th>
+          <th>Emp ID</th>
+          <th>Employee Payroll</th>
+          <th>Social Security Number</th>
+          <th>Salary</th>
+          <th>Action</th>
+         
+    </tr>
+    </thead>
+    <tbody class="table-success">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.HrId</td>
+            <td>@item.Empid</td>
+            <td>@item.Emppayroll</td>
+            <td>@item.Ssn</td>
+            <td>@item.Salary</td>
+           <td>
+             <a class="btn btn-info" asp-action="HrEdit" asp-controller="Hr" asp-route-id="@item.HrId">Edit</a>
+              <a class="btn btn-danger" asp-action="Hrdelete" asp-controller="Hr" asp-route-id="@item.HrId" onclick="return confirm('Are you sure to delete?');">Delete</a>
+                 
+           </td>
+        </tr>
+    }
+    </tbody>
+</table>
+    

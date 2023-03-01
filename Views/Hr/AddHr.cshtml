@@ -1,0 +1,45 @@
+@model Assignment2model.Hr;
+@{
+    ViewData["Title"] = "AddHr";
+}
+ 
+@using (Html.BeginForm("AddHr","Hr",FormMethod.Post))
+{
+ <h2>Add HR Details</h2>
+ <hr>
+ <table>
+      <tr>
+        <th>HR ID</th>
+        <td>@Html.TextBoxFor(x=>x.HrId)</td>
+        
+    </tr>
+     <tr>
+        <th>Employee Name</th>
+        <td><select asp-for="Empid" asp-items="@(new SelectList(@ViewBag.emp,"EmpId","Fname"))">
+
+            </select></td>
+        
+    </tr>
+     <tr>
+        <th>EmpPayRoll</th>
+        <td>@Html.TextBoxFor(x=>x.Emppayroll)</td>
+        
+    </tr>
+     <tr>
+        <th>Social Security Number</th>
+        <td>@Html.TextBoxFor(x=>x.Ssn)</td>
+        
+    </tr>
+     <tr>
+        <th>Salary</th>
+        <td>@Html.TextBoxFor(x=>x.Salary)</td>
+        
+    </tr>
+    <tr>
+        <td><button type="submit" class="btn btn-primary">Save</button>
+        <button type="reset" class="btn btn-danger"  onclick="history.go(-1)">Cancel</button></td>
+    </tr>
+    
+ </table>
+
+}

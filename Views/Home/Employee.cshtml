@@ -1,0 +1,48 @@
+@model Assignment2model.EmpDetail
+@{
+    ViewData["Title"] = "Employee";
+}
+
+ @using (Html.BeginForm("Employee","Home",FormMethod.Post))
+{
+    
+        <table id="tbl">
+            <h2>Employee details</h2>
+            <hr>
+            <tr>
+                <td>Empid</td>
+                <td>@Html.TextBoxFor(x=>x.EmpId)</td></tr>
+                <tr>
+                 <td>Emp First Name</td>
+                <td>@Html.TextBoxFor(x=>x.Fname)</td></tr>
+                <tr>
+                 <td>Emp Last Name</td>
+                <td>@Html.TextBoxFor(x=>x.Lname)</td></tr>
+                <tr>
+                 <td>contact No</td>
+                <td>@Html.TextBoxFor(x=>x.Cno)</td></tr>
+                <tr>
+                 <td>Home Address</td>
+                <td>@Html.TextBoxFor(x=>x.HomeAddress)</td></tr>
+                <tr>
+                 <td>Work Location</td>
+                  <td>  <select asp-for="Worklocation" asp-items="@(new SelectList(@ViewBag.Location,"Address","Address"))">
+             <option value="0">-- select --</option>
+            </select>
+            
+           
+            </td></tr> 
+                <tr>
+                 <td>IsActive</td>
+                <td>@Html.TextBoxFor(x=>x.IsActive)</td></tr>
+                <tr>
+                 <td>IsDelete</td>
+                <td>@Html.TextBoxFor(x=>x.Isdelete)</td></tr>
+                <tr>
+                <td><input type="submit" class="btn btn-primary" value="Save">
+                <button type="reset" class="btn btn-danger"  onclick="history.go(-1)">Cancel</button></td>
+            </tr>
+        </table>
+ 
+    
+} 

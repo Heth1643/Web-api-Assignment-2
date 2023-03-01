@@ -1,0 +1,33 @@
+@model IEnumerable<Assignment2model.Location>
+@{
+    ViewData["Title"] = "LocationList";
+}
+
+    <table id="tbl1" Class="table table-dark text-center">
+    <thead>
+    <tr>
+          <th>Location ID</th>
+          <th>Building ID</th>
+          <th>Address</th>
+          <th>Zip Code</th>
+          <th>Manager Name</th>
+         <th>Action</th>
+    </tr>
+    </thead>
+    <tbody class="table-success">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Lid</td>
+            <td>@item.Bid</td>
+            <td>@item.Address</td>
+            <td>@item.Zipcode</td>
+            <td>@item.Managername</td>
+            <td>
+                <a class="btn btn-info" asp-action="LocationEdit" asp-controller="Location" asp-route-id="@item.Lid">Edit</a>
+                <a class="btn btn-danger" asp-action="LocationDelete"  asp-controller="Location" asp-route-id="@item.Lid" onclick="return confirm('Are you sure to delete?');">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

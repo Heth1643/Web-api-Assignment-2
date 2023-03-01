@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Assignment2consume
+build_property.RootNamespace = Assignment2consume
+build_property.ProjectDir = D:\learning\Dotnet\Web-Api\Assignment-2 webapi\Assignment2consume\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\learning\Dotnet\Web-Api\Assignment-2 webapi\Assignment2consume
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Home/EmpList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Home/Employee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Hr/AddHr.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJcQWRkSHIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Hr/HrEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJcSHJFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Hr/HrList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJcSHJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Location/AddLocation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cQWRkTG9jYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Location/LocationEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cTG9jYXRpb25FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Location/LocationList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cTG9jYXRpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/learning/Dotnet/Web-Api/Assignment-2 webapi/Assignment2consume/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yp3ofji3jz
